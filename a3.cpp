@@ -1,6 +1,8 @@
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
+#include "Vertex.h"
 
 int main() {
-	return;
+	Vertex v(std::cin);
+	return 0;
 }
