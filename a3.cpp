@@ -4,6 +4,8 @@
 #include "Vertex.h"
 
 int main() {
-	VertexManager(std::cin);
+	VertexManager vm(std::cin);
+	vm.getMinOrdering();
+	vm.printMinOrdering();
 	return 0;
 }
